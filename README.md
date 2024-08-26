@@ -17,7 +17,7 @@ Add the package to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  extenx: ^1.0.0
+  extenx: ^0.0.3
 ```
 Then run `flutter pub get` in your terminal.
 
@@ -35,7 +35,7 @@ import 'package:extenx/extenx.dart';
 void main() {
   String email = 'test@example.com';
   bool isValid = email.isValidEmail;
-  print('Is the email valid? $isValid');
+  print('Is the email valid? $isValid'); // Is the email valid? true
 }
 ```
 
